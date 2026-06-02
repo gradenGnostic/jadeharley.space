@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>jadeharley.space — Incipisphere Observatory</title>
+<meta name="description" content="A Jade Harley / Homestuck-inspired rotatable Incipisphere observatory centered on Skaia, Prospit, Derse, and the beta kids' Lands." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://jadeharley.space/" />
+<meta property="og:title" content="jadeharley.space" />
+<meta property="og:description" content="Rotatable Incipisphere display." />
+<meta property="og:image" content="https://jadeharley.space/assets/images/embed-preview.gif" />
+<meta property="og:image:type" content="image/gif" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="jadeharley.space" />
+<meta name="twitter:description" content="Rotatable Incipisphere display." />
+<meta name="twitter:image" content="https://jadeharley.space/assets/images/embed-preview.gif" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+<div id="wrap">
+  <header>
+    <div class="logo">JADEHARLEY.SPACE</div>
+    <div class="subtitle">rotatable Incipisphere display</div>
+    <div class="controls">
+      <button id="autoBtn" class="active">auto rotate</button>
+      <button id="resetBtn">reset view</button>
+      <button id="labelsBtn" class="active">labels</button>
+    </div>
+  </header>
+  <main>
+    <canvas id="c" aria-label="Rotatable Incipisphere map"></canvas>
+    <aside id="hud"></aside>
+  </main>
+  <footer>
+    <span>drag to rotate · click planets · scroll to zoom</span>
+  </footer>
+</div>
+<script src="assets/js/incipisphere.js"></script>
+</body>
+</html>
